@@ -1,0 +1,17 @@
+//
+//  NewsReader-Prefix.pch
+//  NewsReader
+//
+//  Created by MoHuilin on 16/1/30.
+//  Copyright © 2016年 MoHuilin. All rights reserved.
+//
+
+#ifndef NewsReader_Prefix_pch
+#define NewsReader_Prefix_pch
+
+#import <Availability.h>
+#ifdef __OBJC__
+#import "Defines.h"
+#endif
+
+#endif /* NewsReader_Prefix_pch */

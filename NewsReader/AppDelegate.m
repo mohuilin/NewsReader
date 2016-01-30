@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "Defines.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    BASE_ERROR_FUN(@"cuowu");
+    BASE_INFO_FUN(@"start ");
     return YES;
 }
 
