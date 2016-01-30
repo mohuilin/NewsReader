@@ -1,13 +1,13 @@
 //
-//  MMBasePage.h
+//  NewsWidget.m
 //  NewsReader
 //
 //  Created by MoHuilin on 16/1/30.
 //  Copyright © 2016年 MoHuilin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "NewsWidget.h"
 
-@interface MMBasePage : UIViewController
+@implementation NewsWidget
 
 @end

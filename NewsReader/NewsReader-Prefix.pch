@@ -12,6 +12,7 @@
 #import <Availability.h>
 #ifdef __OBJC__
 #import "Defines.h"
+#import "URLDefine.h"
 #endif
 
 #endif /* NewsReader_Prefix_pch */

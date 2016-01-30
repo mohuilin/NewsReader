@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginPage.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     BASE_INFO_FUN(@"start ");
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[LoginPage alloc] init];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
