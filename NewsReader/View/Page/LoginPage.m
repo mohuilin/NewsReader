@@ -13,7 +13,12 @@
 @implementation LoginPage
 
 - (BOOL)checkVilidate{
-    return YES;
+    BOOL validate = YES;
+    if (_userName.text.length <= 0 || _password.text.length <= 0) {
+        validate = NO;
+        [self showIndicator:LoginCheckTip autoHide:YES afterDelay:YES];
+    }
+    return validate;
 }
 
 - (IBAction)doLoginEvent:(id)sender{
@@ -21,6 +26,8 @@
     if (![self checkVilidate]) {
         return;
     }
+    
+    [self showIndicator:LoginingTip autoHide:NO afterDelay:NO];
     
     NSString *body = [NSString stringWithFormat:@"username=%@&password=%@",_userName.text,_password.text];
     NSDictionary *opInfo = @{@"url":LoginURL,

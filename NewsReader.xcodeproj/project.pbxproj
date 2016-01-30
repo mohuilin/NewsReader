@@ -75,6 +75,16 @@
 		D92455C51C5CAF130054A589 /* TabBarShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92455A01C5CAF130054A589 /* TabBarShadow@2x.png */; };
 		D92455C61C5CAF130054A589 /* VoiceIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92455A11C5CAF130054A589 /* VoiceIcon@2x.png */; };
 		D92455C71C5CAF130054A589 /* VoiceIconSelect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D92455A21C5CAF130054A589 /* VoiceIconSelect@2x.png */; };
+		D92455CA1C5CB73A0054A589 /* FxActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455C91C5CB73A0054A589 /* FxActivity.m */; };
+		D92455CD1C5CB8A70054A589 /* FxActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455CC1C5CB8A70054A589 /* FxActivityIndicator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D92455D01C5CC18D0054A589 /* AdvertPage.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455CF1C5CC18D0054A589 /* AdvertPage.m */; };
+		D92455D31C5CC2A90054A589 /* ADLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455D21C5CC2A90054A589 /* ADLaunchImageView.m */; };
+		D92455D61C5CC3CE0054A589 /* FxDate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455D51C5CC3CE0054A589 /* FxDate.m */; };
+		D92455DA1C5CC4C90054A589 /* UIImage+LaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455D91C5CC4C90054A589 /* UIImage+LaunchImage.m */; };
+		D92455DD1C5CC6C80054A589 /* FxGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455DC1C5CC6C80054A589 /* FxGlobal.m */; };
+		D92455EA1C5CC7EC0054A589 /* FxFileUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455E91C5CC7EC0054A589 /* FxFileUtility.m */; };
+		D92455F31C5CCBA90054A589 /* FxGetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455F21C5CCBA90054A589 /* FxGetImage.m */; };
+		D92455F61C5CCC010054A589 /* FxAppSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = D92455F51C5CCC010054A589 /* FxAppSetting.m */; };
 		D9F1CD651C5C745D0030AE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1CD641C5C745D0030AE61 /* main.m */; };
 		D9F1CD681C5C745D0030AE61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1CD671C5C745D0030AE61 /* AppDelegate.m */; };
 		D9F1CD6B1C5C745D0030AE61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1CD6A1C5C745D0030AE61 /* ViewController.m */; };
@@ -198,6 +208,27 @@
 		D92455A01C5CAF130054A589 /* TabBarShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarShadow@2x.png"; sourceTree = "<group>"; };
 		D92455A11C5CAF130054A589 /* VoiceIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VoiceIcon@2x.png"; sourceTree = "<group>"; };
 		D92455A21C5CAF130054A589 /* VoiceIconSelect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VoiceIconSelect@2x.png"; sourceTree = "<group>"; };
+		D92455C81C5CB73A0054A589 /* FxActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxActivity.h; sourceTree = "<group>"; };
+		D92455C91C5CB73A0054A589 /* FxActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxActivity.m; sourceTree = "<group>"; };
+		D92455CB1C5CB8A70054A589 /* FxActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxActivityIndicator.h; sourceTree = "<group>"; };
+		D92455CC1C5CB8A70054A589 /* FxActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxActivityIndicator.m; sourceTree = "<group>"; };
+		D92455CE1C5CC18D0054A589 /* AdvertPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertPage.h; sourceTree = "<group>"; };
+		D92455CF1C5CC18D0054A589 /* AdvertPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertPage.m; sourceTree = "<group>"; };
+		D92455D11C5CC2A90054A589 /* ADLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLaunchImageView.h; sourceTree = "<group>"; };
+		D92455D21C5CC2A90054A589 /* ADLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLaunchImageView.m; sourceTree = "<group>"; };
+		D92455D41C5CC3CE0054A589 /* FxDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxDate.h; sourceTree = "<group>"; };
+		D92455D51C5CC3CE0054A589 /* FxDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxDate.m; sourceTree = "<group>"; };
+		D92455D81C5CC4C90054A589 /* UIImage+LaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LaunchImage.h"; sourceTree = "<group>"; };
+		D92455D91C5CC4C90054A589 /* UIImage+LaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LaunchImage.m"; sourceTree = "<group>"; };
+		D92455DB1C5CC6C80054A589 /* FxGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxGlobal.h; sourceTree = "<group>"; };
+		D92455DC1C5CC6C80054A589 /* FxGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxGlobal.m; sourceTree = "<group>"; };
+		D92455E81C5CC7EC0054A589 /* FxFileUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxFileUtility.h; sourceTree = "<group>"; };
+		D92455E91C5CC7EC0054A589 /* FxFileUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxFileUtility.m; sourceTree = "<group>"; };
+		D92455EF1C5CCA650054A589 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D92455F11C5CCBA90054A589 /* FxGetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxGetImage.h; sourceTree = "<group>"; };
+		D92455F21C5CCBA90054A589 /* FxGetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxGetImage.m; sourceTree = "<group>"; };
+		D92455F41C5CCC010054A589 /* FxAppSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FxAppSetting.h; sourceTree = "<group>"; };
+		D92455F51C5CCC010054A589 /* FxAppSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FxAppSetting.m; sourceTree = "<group>"; };
 		D9F1CD601C5C745D0030AE61 /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F1CD641C5C745D0030AE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9F1CD661C5C745D0030AE61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -265,6 +296,8 @@
 				D92455481C5CA3740054A589 /* FxGetAdvert.m */,
 				D92455711C5CACF40054A589 /* FxLogin.h */,
 				D92455721C5CACF40054A589 /* FxLogin.m */,
+				D92455F11C5CCBA90054A589 /* FxGetImage.h */,
+				D92455F21C5CCBA90054A589 /* FxGetImage.m */,
 			);
 			path = Operation;
 			sourceTree = "<group>";
@@ -341,9 +374,19 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		D92455D71C5CC4AA0054A589 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D92455D81C5CC4C90054A589 /* UIImage+LaunchImage.h */,
+				D92455D91C5CC4C90054A589 /* UIImage+LaunchImage.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D9F1CD571C5C745C0030AE61 = {
 			isa = PBXGroup;
 			children = (
+				D92455EF1C5CCA650054A589 /* SystemConfiguration.framework */,
 				D9F1CD961C5C74980030AE61 /* Readme */,
 				D9F1CD621C5C745D0030AE61 /* NewsReader */,
 				D9F1CD7C1C5C745D0030AE61 /* NewsReaderTests */,
@@ -452,6 +495,8 @@
 				D924555A1C5CA9AE0054A589 /* DetailPage.m */,
 				D92455741C5CAD560054A589 /* LoginPage.h */,
 				D92455751C5CAD560054A589 /* LoginPage.m */,
+				D92455CE1C5CC18D0054A589 /* AdvertPage.h */,
+				D92455CF1C5CC18D0054A589 /* AdvertPage.m */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -492,6 +537,8 @@
 		D9F1CD9D1C5C76230030AE61 /* Global */ = {
 			isa = PBXGroup;
 			children = (
+				D92455DB1C5CC6C80054A589 /* FxGlobal.h */,
+				D92455DC1C5CC6C80054A589 /* FxGlobal.m */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -561,6 +608,7 @@
 		D9F1CDA41C5C76230030AE61 /* ThirdSDK */ = {
 			isa = PBXGroup;
 			children = (
+				D92455D71C5CC4AA0054A589 /* Category */,
 				D924552C1C5C98610054A589 /* JsonFramework */,
 			);
 			path = ThirdSDK;
@@ -569,6 +617,18 @@
 		D9F1CDA51C5C76230030AE61 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				D92455C81C5CB73A0054A589 /* FxActivity.h */,
+				D92455C91C5CB73A0054A589 /* FxActivity.m */,
+				D92455CB1C5CB8A70054A589 /* FxActivityIndicator.h */,
+				D92455CC1C5CB8A70054A589 /* FxActivityIndicator.m */,
+				D92455D11C5CC2A90054A589 /* ADLaunchImageView.h */,
+				D92455D21C5CC2A90054A589 /* ADLaunchImageView.m */,
+				D92455D41C5CC3CE0054A589 /* FxDate.h */,
+				D92455D51C5CC3CE0054A589 /* FxDate.m */,
+				D92455E81C5CC7EC0054A589 /* FxFileUtility.h */,
+				D92455E91C5CC7EC0054A589 /* FxFileUtility.m */,
+				D92455F41C5CCC010054A589 /* FxAppSetting.h */,
+				D92455F51C5CCC010054A589 /* FxAppSetting.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -743,37 +803,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D92455EA1C5CC7EC0054A589 /* FxFileUtility.m in Sources */,
 				D9F1CD6B1C5C745D0030AE61 /* ViewController.m in Sources */,
+				D92455D31C5CC2A90054A589 /* ADLaunchImageView.m in Sources */,
 				D92455551C5CA9960054A589 /* DiscoverPage.m in Sources */,
+				D92455D01C5CC18D0054A589 /* AdvertPage.m in Sources */,
 				D924551F1C5C8A2B0054A589 /* MMBasePage.m in Sources */,
 				D924554C1C5CA89E0054A589 /* FxBaseController.m in Sources */,
 				D924553B1C5C98610054A589 /* FxJsonWriter.m in Sources */,
 				D92455461C5C9EE00054A589 /* FxOperation.m in Sources */,
 				D92455701C5CAC570054A589 /* UserInfo.m in Sources */,
 				D92455281C5C95920054A589 /* BaseInfo.m in Sources */,
+				D92455DD1C5CC6C80054A589 /* FxGlobal.m in Sources */,
 				D924555B1C5CA9AE0054A589 /* DetailPage.m in Sources */,
 				D92455421C5C9DC60054A589 /* NewsInfo.m in Sources */,
 				D924555E1C5CA9FE0054A589 /* FxBaseWidget.m in Sources */,
 				D92455371C5C98610054A589 /* FxJSON.m in Sources */,
+				D92455F31C5CCBA90054A589 /* FxGetImage.m in Sources */,
 				D92455391C5C98610054A589 /* FxJsonParser.m in Sources */,
 				D92455671C5CAA7B0054A589 /* NewsWidget.m in Sources */,
 				D92455611C5CAA1F0054A589 /* FxTableWidget.m in Sources */,
 				D924556A1C5CAA950054A589 /* ReaderWidget.m in Sources */,
 				D924552B1C5C96B60054A589 /* AdvertInfo.m in Sources */,
 				D924556D1C5CAAD20054A589 /* FxBaseCell.m in Sources */,
+				D92455CA1C5CB73A0054A589 /* FxActivity.m in Sources */,
 				D92455521C5CA9750054A589 /* VoicePage.m in Sources */,
 				D92455251C5C8AC40054A589 /* HomePage.m in Sources */,
 				D9F1CD681C5C745D0030AE61 /* AppDelegate.m in Sources */,
 				D924553F1C5C9A750054A589 /* ColumnInfo.m in Sources */,
+				D92455DA1C5CC4C90054A589 /* UIImage+LaunchImage.m in Sources */,
 				D92455491C5CA3740054A589 /* FxGetAdvert.m in Sources */,
 				D92455581C5CA9A00054A589 /* MyPage.m in Sources */,
+				D92455F61C5CCC010054A589 /* FxAppSetting.m in Sources */,
 				D92455381C5C98610054A589 /* FxJsonBase.m in Sources */,
 				D9F1CD651C5C745D0030AE61 /* main.m in Sources */,
+				D92455CD1C5CB8A70054A589 /* FxActivityIndicator.m in Sources */,
 				D92455641C5CAA340054A589 /* ColumnBarWidget.m in Sources */,
 				D92455731C5CACF40054A589 /* FxLogin.m in Sources */,
 				D924553A1C5C98610054A589 /* FxJsonUtility.m in Sources */,
 				D92455761C5CAD560054A589 /* LoginPage.m in Sources */,
 				D924554F1C5CA9640054A589 /* ReaderPage.m in Sources */,
+				D92455D61C5CC3CE0054A589 /* FxDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,6 +926,10 @@
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewsReader/ThirdSDK/MiPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhl.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -932,6 +1006,10 @@
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewsReader/ThirdSDK/MiPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhl.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1007,6 +1085,10 @@
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewsReader/ThirdSDK/MiPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhl.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1125,6 +1207,10 @@
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewsReader/ThirdSDK/MiPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhl.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1139,6 +1225,10 @@
 				INFOPLIST_FILE = NewsReader/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NewsReader/ThirdSDK/MiPush",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mhl.NewsReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

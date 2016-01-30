@@ -8,9 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "FxOperation.h"
+#import "FxActivity.h"
 
 @interface FxBaseController : UIViewController<FxOperationDelegate>{
     FxOperation  *_operation;
+    FxActivity   *_activity;
 }
+
+- (void)showIndicator:(NSString *)tipMessage
+             autoHide:(BOOL)hide
+           afterDelay:(BOOL)delay;
+- (void)hideIndicator;
 
 @end
