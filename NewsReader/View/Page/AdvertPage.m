@@ -114,9 +114,11 @@
 
 - (ADLaunchImageView *)adLaunchImageView{
     if (!_adLaunchImageView) {
+//        __typeof(self) __weak weakSelf = self;
+        __weak __typeof(&*self)weakSelf = self;
         _adLaunchImageView = [[ADLaunchImageView alloc] initWithImage:[UIImage getLaunchImage]];
         [_adLaunchImageView setClickedImageURLHandle:^(NSString *clickUrl) {
-            BASE_INFO_FUN(clickUrl);
+            BASE_INFO_LOG([weakSelf class], _cmd, clickUrl);
         }];
     }
     return _adLaunchImageView;
