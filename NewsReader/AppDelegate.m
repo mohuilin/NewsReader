@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "Defines.h"
+#import "LoginPage.h"
+#import "HomePage.h"
+#import "AdvertPage.h"
 
 @interface AppDelegate ()
 
@@ -16,9 +18,29 @@
 @implementation AppDelegate
 
 
++ (AppDelegate *)appDeg
+{
+    return  (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
+
+- (void)showHomePage
+{
+    HomePage *page = [[HomePage alloc] init];
+    
+    self.window.rootViewController = page;
+    
+    [self.window makeKeyAndVisible];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    BASE_ERROR_FUN(@"cuowu");
+    BASE_INFO_FUN(@"start ");
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[LoginPage alloc] init];
+    [self.window makeKeyAndVisible];
+    
+    [AdvertPage showAdvertPage];
+    
     return YES;
 }
 
@@ -34,6 +56,9 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    if([AdvertPage canShowAdvertPage]){
+        [AdvertPage showAdvertPage];
+    }
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
